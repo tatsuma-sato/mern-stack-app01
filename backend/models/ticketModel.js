@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 // const Schema = mongoose.Schema;
 
-const tocketModel = mongoose.Schema(
+const ticketModel = mongoose.Schema(
   {
     user: {
       type: mongoose.Schema.Types.ObjectId,
@@ -29,4 +29,4 @@ const tocketModel = mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("Ticket", tocketModel);
+module.exports = mongoose.model("Ticket", ticketModel);
